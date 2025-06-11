@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+
+  color: #212529;
+  font: 18px/1.5 sans-serif;
+
+  background-color: #f7f8fa;
+}
+
+img {
+  width: 100%;
+
+  vertical-align: middle;
+}
+
+h2 {
+  text-align: center;
+}
+
+.catalog {
+    /* BEGIN (write your solution here) */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    list-style: none;
+    /* END */
+
+    text-align: center;
+}
+
+.catalog-item {
+    /* BEGIN (write your solution here) */
+    width: 350px;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    /* END */
+}
+
+.price {
+    font-weight: bold;
+    color: #e53935;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
