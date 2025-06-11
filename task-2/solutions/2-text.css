@@ -1,0 +1,71 @@
+/* BEGIN (write your solution here) */
+@font-face {
+    font-family: 'Cormorant';
+    src: url('assets/fonts/Cormorant.ttf') format('truetype');
+}
+/* END */
+
+body {
+    width: 790px;
+    margin: 0 auto;
+    padding: 50px 0 100px;
+    /* BEGIN (write your solution here) */
+    font: 16px/1.5 sans-serif;
+    /* END */
+
+    background-color: #ebebeb;
+}
+
+.logo {
+    margin-bottom: 30px;
+    /* BEGIN (write your solution here) */
+    font: 30px/normal 'Cormorant', serif;
+    color: #333;
+    /* END */
+    letter-spacing: 15px;
+    text-transform: uppercase;
+}
+
+.nav a {
+    /* BEGIN (write your solution here) */
+    color: #616161;
+    font-weight: bold;
+    /* END */
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.interview {
+    /* BEGIN (write your solution here) */
+    color: #333;
+    font: 18px/1.5 serif;
+    /* END */
+}
+
+.interview-header {
+    /* BEGIN (write your solution here) */
+    font: bold 50px/1.2 'Cormorant', serif;
+    /* END */
+}
+
+.interview-description {
+    /* BEGIN (write your solution here) */
+    color: #686868;
+    font-family: sans-serif;
+    /* END */
+}
+
+.interview-footer {
+    /* BEGIN (write your solution here) */
+    font: 12px/1.25 sans-serif;
+    text-align: right;
+    /* END */
+}
+
+.interview-text {
+    /* BEGIN (write your solution here) */
+    font: 20px/1.75 serif;
+    text-align: justify;
+    /* END */
+}

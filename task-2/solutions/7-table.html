@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список дел на неделю</title>
+    <link rel="stylesheet" href="7-table.css">
+    <style>
+        .todo-table {
+            table-layout: fixed;
+            width: 100%;
+        }
+
+            .todo-table td {
+                vertical-align: top;
+                padding: 0;
+                position: relative;
+                height: 600px;
+            }
+
+        .time-block {
+            position: absolute;
+            left: 0;
+            right: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <table class="todo-table">
+        <thead>
+            <tr>
+                <th>Понедельник</th>
+                <th>Вторник</th>
+                <th>Среда</th>
+                <th>Четверг</th>
+                <th>Пятница</th>
+                <th>Суббота</th>
+                <th>Воскресенье</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- Понедельник -->
+                <td>
+                    <div class="bg-blue time-block" style="top: 0; height: 200px;">
+                        <p class="todo-name">Бассейн</p>
+                        <p class="todo-time">9:30 - 10:30</p>
+                    </div>
+                    <div class="bg-orange time-block" style="top: 200px; height: 200px;">
+                        <p class="todo-name">Магазин</p>
+                        <p class="todo-time">11:00 - 12:00</p>
+                    </div>
+                    <div class="bg-green time-block" style="top: 400px; height: 200px;">
+                        <p class="todo-name">Магазин</p>
+                        <p class="todo-time">12:00 - 13:00</p>
+                    </div>
+                </td>
+
+                <!-- Вторник -->
+                <td>
+                    <div class="bg-blue time-block" style="top: 0; height: 200px;">
+                        <p class="todo-name">Бассейн</p>
+                        <p class="todo-time">9:30 - 10:30</p>
+                    </div>
+                    <div class="bg-blue time-block" style="top: 200px; height: 400px;">
+                        <p class="todo-name">Съездить к Саше</p>
+                        <p class="todo-time">11:30 - 13:00</p>
+                    </div>
+                </td>
+
+                <!-- Среда -->
+                <td>
+                    <div class="bg-blue time-block" style="top: 0; height: 200px;">
+                        <p class="todo-name">Бассейн</p>
+                        <p class="todo-time">9:30 - 10:30</p>
+                    </div>
+                    <div class="bg-green time-block" style="top: 200px; height: 400px;">
+                        <p class="todo-name">Уборка</p>
+                        <p class="todo-time">11:30 - 13:00</p>
+                    </div>
+                </td>
+
+                <!-- Четверг -->
+                <td>
+                    <div class="bg-orange time-block" style="top: 0; height: 400px;">
+                        <p class="todo-name">Отвезти маму</p>
+                        <p class="todo-time">9:30 - 11:30</p>
+                    </div>
+                </td>
+
+                <!-- Пятница -->
+                <td>
+                    <div class="bg-blue time-block" style="top: 0; height: 200px;">
+                        <p class="todo-name">Бассейн</p>
+                        <p class="todo-time">9:30 - 10:30</p>
+                    </div>
+                    <div class="bg-green time-block" style="top: 400px; height: 200px;">
+                        <p class="todo-name">Отвезти Ольгу</p>
+                        <p class="todo-time">11:30 - 13:00</p>
+                    </div>
+                </td>
+
+                <!-- Суббота -->
+                <td>
+                    <div class="bg-green time-block" style="top: 0; height: 400px;">
+                        <p class="todo-name">Гольф</p>
+                        <p class="todo-time">9:30 - 12:30</p>
+                    </div>
+                </td>
+
+                <!-- Воскресенье -->
+                <td>
+                    <div class="bg-orange time-block" style="top: 0; height: 600px;">
+                        <p class="todo-name">Отдых</p>
+                        <p class="todo-time">9:30 - 13:00</p>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,90 @@
+html {
+    /* BEGIN (write your solution here) */
+    font: 18px/1.5 sans-serif;
+    background: #1d2026;
+    color: #8a94a7;
+    height: 100%;
+    /* END */
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* BEGIN (write your solution here) */
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    /* END */
+}
+
+h1,
+h2,
+h3 {
+    /* BEGIN (write your solution here) */
+    margin: 0;
+    padding: 1rem 0;
+    /* END */
+}
+
+ul {
+    /* BEGIN (write your solution here) */
+    margin: 0;
+    padding: 1rem 0;
+    /* END */
+}
+
+/* BEGIN (write your solution here) */
+.card {
+    width: 300px;
+    padding: 2.5rem 2rem;
+    background: #2c3039;
+}
+
+.card-list {
+    font-size: 14px;
+}
+
+.price {
+    font-size: 18px;
+    line-height: 1;
+}
+
+    .price span {
+        color: white;
+        font-size: 3em;
+    }
+
+h3 {
+    color: white;
+    font-size: 0.9em;
+}
+
+.btn {
+    font-size: 0.7rem;
+}
+/* END */
+
+.btn {
+    display: block;
+    padding: 1em 0;
+    color: white;
+    /* BEGIN (write your solution here) */
+    /* END */
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn-blue {
+    background-color: #097dea;
+}
+
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgb(138 148 167 / 24%);
+}
